@@ -1,0 +1,62 @@
+[2019-10-15 06:44 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1035
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&invoice=199&protection_eligibility=Eligible&address_status=confirmed&payer_id=XZUKYURZE54N4&address_street=1+Main+St&payment_date=23%3A44%3A09+Oct+14%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=95131&first_name=estate&mc_fee=0.59&address_country_code=US&address_name=estate+sold&notify_version=3.9&custom=199&payer_status=verified&business=mdeveloper020-facilitator%40gmail.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AlzJXgMD8sSk0yb1YdYaQzteB-xAA1v2CPyId3DnTU-b-YqOhgKDiuUM&payer_email=vdevops%40gmail.com&txn_id=6MG620845U3563459&payment_type=instant&last_name=sold&address_state=CA&receiver_email=mdeveloper020-facilitator%40gmail.com&payment_fee=0.59&shipping_discount=0.00&insurance_amount=0.00&receiver_id=MQF6L7E54F5VQ&txn_type=web_accept&item_name=Invoice+%23+199&discount=0.00&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=10.00&ipn_track_id=f1b550ea88ac2
+[2019-10-15 06:44 UTC] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Tue, 15 Oct 2019 06:44:16 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=T6H0WdxX41KOuuitr4p02cFHmuv9G6fI6l0Ac5mcYB4AY83DgIy3p0CYwevrZYVcT-iwR9kpqWrx52ANzKR3QIApdLBq5gWMFNPZAD6avG-hPRXIXwWsUpOFW1e50r2EVAlKxYLrWYGiL7cOtecvJwW_tlpO4_VHJfjqV9CGLYOWWh-U54cVbeXZpEsUbfBG24Zbn6c3UOfMMLZaQRXfBN68GFHofAluI_MGZUCUFz55QP6xMnhcjBzM7yj_Ei4KtBh9qAJOSYN6hJoW1w_nJgT-5BMCgzv6Y9NSf7z1FaBS2w-m97ASrqxeIhgKnr9kcu4Wcobuy44YoKWsppvF1H_f4QhlbePNWT8LOKwL-TI1yGf3KsldunDEFRyIX-cfEmiYfWPD0y_2EazSeU7Dv2xhQv9UGpa7qtsVdG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 12-Oct-2029 06:44:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 14-Oct-2021 06:44:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1571121856633214; path=/; expires=Thu, 07-Oct-49 06:44:16 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 6731d49994097
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3228214621%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 15 Oct 2019 07:14:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: X-PP-L7=0; domain=.paypal.com; path=/; Secure
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-10-15 07:17 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1035
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&invoice=200&protection_eligibility=Eligible&address_status=confirmed&payer_id=XZUKYURZE54N4&address_street=1+Main+St&payment_date=00%3A17%3A43+Oct+15%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=95131&first_name=estate&mc_fee=0.59&address_country_code=US&address_name=estate+sold&notify_version=3.9&custom=200&payer_status=verified&business=mdeveloper020-facilitator%40gmail.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AIppibaV68iD-MjE4J8YN5d8asUXAnZeNqMpWFSRU976mLFVE4tkLqHJ&payer_email=vdevops%40gmail.com&txn_id=22N24731LA071173F&payment_type=instant&last_name=sold&address_state=CA&receiver_email=mdeveloper020-facilitator%40gmail.com&payment_fee=0.59&shipping_discount=0.00&insurance_amount=0.00&receiver_id=MQF6L7E54F5VQ&txn_type=web_accept&item_name=Invoice+%23+200&discount=0.00&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=10.00&ipn_track_id=10fa95e8d92b7
+[2019-10-15 07:17 UTC] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Tue, 15 Oct 2019 07:17:51 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=pvvz8uH_0fwY7SpCu69VpXI8CteKU3HxmWNJwOhPe4PRFSQ0Q14SRMiBDgJjeQM-q1CMuij41xX36osvwv3rwChStOfkUfhUydBgKEJJW5zuuMM6ce7WhXvC2blCtLPPaLBD-8xBX91phLfb4R015jxOCws8tvM26-MxAJPL95MaIcG4yH6PWFsXze54uCHTlAZbIWrIUx-DFOrKnRJFHQuG4EcPQVoFJ1ZoOQEAlgAckAPQtoUY5odhUHZAiO6OF_GqP-06oVl8lkxPxvKWBznDkVoPn15PUdM3PhGwqzWHxww99SgD4qtS06M0jLzT7cmFy_hMcsf2DMML-81HkneyXtIdFIOFZ8uUXjc2SHfYGJC98P4igR3t8sQJvImCq5dpHk2engSZdtl-eL1nF9FReauHZLL3TDIKEAc3cCxN-ZrI1eSmVEWUVqS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 12-Oct-2029 07:17:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 14-Oct-2021 07:17:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1571123871719030; path=/; expires=Thu, 07-Oct-49 07:17:51 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 482ba813a9329
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2675090781%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 15 Oct 2019 07:47:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: X-PP-L7=0; domain=.paypal.com; path=/; Secure
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
